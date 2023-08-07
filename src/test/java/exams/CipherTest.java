@@ -23,4 +23,14 @@ class CipherTest {
         assertEquals("B", enCryptor.encrypt("B"));
         assertEquals(null, enCryptor.encrypt(null));
     }
+    @Test
+    void descrypt() {
+        enCryptor.setSteps(23);
+        assertEquals("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", enCryptor.descrypt("QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD"));
+        enCryptor.setSteps(1);
+        assertEquals("", enCryptor.descrypt(""));
+        assertEquals("-", enCryptor.descrypt("-"));
+        assertEquals(null, enCryptor.encrypt(null));
+    }
+}
 
