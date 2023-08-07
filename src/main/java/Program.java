@@ -31,3 +31,11 @@ public final class Main {
                 key = Helper.isValidNumber(myInputKey.nextLine(), key);
                 cipher.setSteps(key);
             }
+
+            switch (option) {
+                case 1:
+                    System.out.println("Enter text to encrypt: ");
+                    data = myInput.nextLine();
+                    result = cipher.encrypt(data);
+                    System.out.println(result);
+                    break;
