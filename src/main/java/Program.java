@@ -39,3 +39,20 @@ public final class Main {
                     result = cipher.encrypt(data);
                     System.out.println(result);
                     break;
+                case 2:
+                    System.out.println("Enter text to decrypt: ");
+                    data = myInput.nextLine();
+                    result = cipher.descrypt(data);
+                    System.out.println(result);
+                    break;
+                default:
+                    System.out.println("Do you want to exit? [Y/N]");
+                    data = myInput.nextLine();
+                    if (data.startsWith("y") || data.startsWith("Y")) {
+                        exit = true;
+                    }
+                    break;
+            }
+            System.out.println("====================================NEXT=====================================================");
+        } while (!exit);
+    }
