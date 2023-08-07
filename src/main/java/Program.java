@@ -1,11 +1,15 @@
 
+import exams.Cipher;
+import exams.Utility;
+
 import java.util.Scanner;
 
-public final class Main {
+public final class Program {
 
-    private Main() {
+    private Program() {
 
     }
+
     public static void main(String[] args) {
         Scanner myOptionInput = new Scanner(System.in);
         Scanner myInput = new Scanner(System.in);
@@ -25,10 +29,10 @@ public final class Main {
         do {
             System.out.println("Enter an option to continue");
             System.out.println("=============================================================================================");
-            option = Helper.isValidNumber(myOptionInput.nextLine());
+            option = Utility.isValidNumber(myOptionInput.nextLine());
             if (option == 1 || option == 2) {
                 System.out.println("Please enter key. Key should be a number between 1-25");
-                key = Helper.isValidNumber(myInputKey.nextLine(), key);
+                key = Utility.isValidNumber(myInputKey.nextLine(), key);
                 cipher.setSteps(key);
             }
 
@@ -56,3 +60,4 @@ public final class Main {
             System.out.println("====================================NEXT=====================================================");
         } while (!exit);
     }
+}

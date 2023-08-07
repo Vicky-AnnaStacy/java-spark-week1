@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef992e85-b253-48dc-8c2d-f39ea69a4d4e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/exams/CipherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exams/CipherTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +125,31 @@
       <option name="project" value="LOCAL" />
       <updated>1691425456650</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test encrypt">
+      <option name="closed" value="true" />
+      <created>1691425592191</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691425592191</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test encrypt">
+      <option name="closed" value="true" />
+      <created>1691425640957</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691425640957</updated>
+    </task>
+    <task id="LOCAL-00011" summary="edit decrypt">
+      <option name="closed" value="true" />
+      <created>1691425761262</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691425761262</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,6 +161,8 @@
     <MESSAGE value="added option 2" />
     <MESSAGE value="edited readme" />
     <MESSAGE value="test setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="test setup" />
+    <MESSAGE value="test encrypt" />
+    <MESSAGE value="edit decrypt" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit decrypt" />
   </component>
 </project>

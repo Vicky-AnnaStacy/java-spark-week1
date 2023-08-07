@@ -4,14 +4,16 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
 class CipherTest {
 
     private Cipher enCryptor;
+
     @BeforeEach
     void setUp() {
         enCryptor = new Cipher();
     }
-}
+
 
     @Test
     void encrypt() {
@@ -23,6 +25,7 @@ class CipherTest {
         assertEquals("B", enCryptor.encrypt("B"));
         assertEquals(null, enCryptor.encrypt(null));
     }
+
     @Test
     void decrypt() {
         enCryptor.setSteps(23);
@@ -31,6 +34,7 @@ class CipherTest {
         assertEquals("", enCryptor.descrypt(""));
         assertEquals("-", enCryptor.descrypt("-"));
         assertEquals(null, enCryptor.encrypt(null));
+
     }
 }
 
