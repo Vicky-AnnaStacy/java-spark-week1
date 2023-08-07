@@ -1,9 +1,9 @@
 # java-spark-week1
- - Week class one project
+ - java spark1 project
 ## author name
  - anastacia wainaina
 ## description of project
- - This is a project to showcase the consepts learnt in java spark  week one of the course
+ - This is a project to showcase the concepts learnt in java spark  week one of the course
  - to encrypt data.
 
 ## project setup instructions

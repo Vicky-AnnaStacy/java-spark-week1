@@ -15,7 +15,7 @@ public final class Main {
 
         System.out.println("OPTIONS");
         System.out.println("1. ENCRYPT");
-        System.out.println("2. DECRYT");
+        System.out.println("2. DECRYPT");
         System.out.println("3. EXIT");
         boolean exit = false;
         int option, key = 1;
