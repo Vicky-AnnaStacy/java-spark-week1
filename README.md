@@ -7,12 +7,11 @@
  - to encrypt data.
 
 ## project setup instructions
- - Clone the link and open in
+ - Clone the link  https://github.com/Vicky-AnnaStacy/java-spark-week1
+ ## Techonologies used
     1. visual studio code
     2. intellij++
-    3. netbeans
-    4. eclipse
-
+   
  ## technologies
   - java
   - Git 
